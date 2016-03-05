@@ -9,6 +9,7 @@
     KeyboardButtonModel* model = [KeyboardButtonModel new];
     model.labelValue = [NSString stringWithFormat:@"%li", (long)value];
     model.value = value;
+    model.operation = ButtonOperationDefault;
     return model;
 }
 

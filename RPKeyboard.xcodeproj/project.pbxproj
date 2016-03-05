@@ -7,25 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26F4D2D42C23D3AD84684141 /* KeyboardOperationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D6F88F8E6236B45BAF9F /* KeyboardOperationsManager.m */; };
+		26F4D37846010CAC81EE6C29 /* KeyboardButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D4FAB4EC5D24B9583CB4 /* KeyboardButtonModel.m */; };
+		26F4D4A97451BE4FE52C41C7 /* KeyboardOperationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4DEBE2D766F3BBEB501EB /* KeyboardOperationMapper.m */; };
+		26F4D5223C975B175C5F27E0 /* KeyboardButtonsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D9188137D7395186AEDD /* KeyboardButtonsModel.m */; };
+		4258299406473E86791C67B4 /* libPods-KbCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B91C64A2147F3A88D2D249 /* libPods-KbCalc.a */; };
 		E0A4A0DB1C6F520900DD168A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A4A0DA1C6F520900DD168A /* main.m */; };
 		E0A4A0DE1C6F520900DD168A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A4A0DD1C6F520900DD168A /* AppDelegate.m */; };
 		E0A4A0E11C6F520900DD168A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A4A0E01C6F520900DD168A /* ViewController.m */; };
-		E0A4A0E41C6F520900DD168A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A4A0E21C6F520900DD168A /* Main.storyboard */; };
 		E0A4A0E61C6F520900DD168A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A4A0E51C6F520900DD168A /* Assets.xcassets */; };
-		E0A4A0E91C6F520900DD168A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A4A0E71C6F520900DD168A /* LaunchScreen.storyboard */; };
+		E0A4A0F81C6F535E00DD168A /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A4A0F71C6F535E00DD168A /* KeyboardViewController.m */; };
+		E0A4A0FC1C6F535E00DD168A /* KbCalc.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E0A4A0F41C6F535E00DD168A /* KbCalc.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0A4A1021C6F542A00DD168A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A4A1011C6F542A00DD168A /* ViewController.xib */; };
+		E0A4A1041C6F766500DD168A /* KeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A4A1031C6F766500DD168A /* KeyboardViewController.xib */; };
+		E0A4A1081C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A4A1071C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.m */; };
+		E0A4A10C1C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A4A10A1C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E0A4A0FA1C6F535E00DD168A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0A4A0CE1C6F520900DD168A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A4A0F31C6F535E00DD168A;
+			remoteInfo = KbCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0A4A1001C6F535E00DD168A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E0A4A0FC1C6F535E00DD168A /* KbCalc.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		26F4D04A01DF6AB1A328950D /* KeyboardOperationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardOperationMapper.h; sourceTree = "<group>"; };
+		26F4D4C6830BDB7F6857C274 /* KeyboardButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonModel.h; sourceTree = "<group>"; };
+		26F4D4FAB4EC5D24B9583CB4 /* KeyboardButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonModel.m; sourceTree = "<group>"; };
+		26F4D6F88F8E6236B45BAF9F /* KeyboardOperationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardOperationsManager.m; sourceTree = "<group>"; };
+		26F4D9188137D7395186AEDD /* KeyboardButtonsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonsModel.m; sourceTree = "<group>"; };
+		26F4D94E9917CDB5550B0737 /* KeyboardButtonsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonsModel.h; sourceTree = "<group>"; };
+		26F4DBD780E749C95539FC01 /* KeyboardOperationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardOperationsManager.h; sourceTree = "<group>"; };
+		26F4DEBE2D766F3BBEB501EB /* KeyboardOperationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardOperationMapper.m; sourceTree = "<group>"; };
+		4BD583104AAD3DE31A8ED820 /* Pods-KbCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KbCalc.release.xcconfig"; path = "Pods/Target Support Files/Pods-KbCalc/Pods-KbCalc.release.xcconfig"; sourceTree = "<group>"; };
+		B6B91C64A2147F3A88D2D249 /* libPods-KbCalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KbCalc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC268782DBEC91BAFD5C900 /* Pods-KbCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KbCalc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KbCalc/Pods-KbCalc.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A4A0D61C6F520900DD168A /* RPKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A4A0DA1C6F520900DD168A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0A4A0DC1C6F520900DD168A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0A4A0DD1C6F520900DD168A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0A4A0DF1C6F520900DD168A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0A4A0E01C6F520900DD168A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0A4A0E31C6F520900DD168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0A4A0E51C6F520900DD168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E0A4A0E81C6F520900DD168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A4A0EA1C6F520900DD168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A4A0F41C6F535E00DD168A /* KbCalc.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KbCalc.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A4A0F61C6F535E00DD168A /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		E0A4A0F71C6F535E00DD168A /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		E0A4A0F91C6F535E00DD168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A4A1011C6F542A00DD168A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E0A4A1031C6F766500DD168A /* KeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardViewController.xib; sourceTree = "<group>"; };
+		E0A4A1061C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonsCollectionDelegate.h; sourceTree = "<group>"; };
+		E0A4A1071C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonsCollectionDelegate.m; sourceTree = "<group>"; };
+		E0A4A1091C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		E0A4A10A1C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardButtonCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,14 +88,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0A4A0F11C6F535E00DD168A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4258299406473E86791C67B4 /* libPods-KbCalc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F4D07601B107684BF035BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26F4D4FAB4EC5D24B9583CB4 /* KeyboardButtonModel.m */,
+				26F4D4C6830BDB7F6857C274 /* KeyboardButtonModel.h */,
+				26F4D94E9917CDB5550B0737 /* KeyboardButtonsModel.h */,
+				26F4D9188137D7395186AEDD /* KeyboardButtonsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26F4D715A756B07D46F625F9 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				26F4D6F88F8E6236B45BAF9F /* KeyboardOperationsManager.m */,
+				26F4DBD780E749C95539FC01 /* KeyboardOperationsManager.h */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		476741727DDD677A5E231EB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBC268782DBEC91BAFD5C900 /* Pods-KbCalc.debug.xcconfig */,
+				4BD583104AAD3DE31A8ED820 /* Pods-KbCalc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C46E58873FF586177DC67533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6B91C64A2147F3A88D2D249 /* libPods-KbCalc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0A4A0CD1C6F520900DD168A = {
 			isa = PBXGroup;
 			children = (
 				E0A4A0D81C6F520900DD168A /* RPKeyboard */,
+				E0A4A0F51C6F535E00DD168A /* KbCalc */,
 				E0A4A0D71C6F520900DD168A /* Products */,
+				476741727DDD677A5E231EB6 /* Pods */,
+				C46E58873FF586177DC67533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A4A0D61C6F520900DD168A /* RPKeyboard.app */,
+				E0A4A0F41C6F535E00DD168A /* KbCalc.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,9 +163,8 @@
 				E0A4A0DD1C6F520900DD168A /* AppDelegate.m */,
 				E0A4A0DF1C6F520900DD168A /* ViewController.h */,
 				E0A4A0E01C6F520900DD168A /* ViewController.m */,
-				E0A4A0E21C6F520900DD168A /* Main.storyboard */,
+				E0A4A1011C6F542A00DD168A /* ViewController.xib */,
 				E0A4A0E51C6F520900DD168A /* Assets.xcassets */,
-				E0A4A0E71C6F520900DD168A /* LaunchScreen.storyboard */,
 				E0A4A0EA1C6F520900DD168A /* Info.plist */,
 				E0A4A0D91C6F520900DD168A /* Supporting Files */,
 			);
@@ -79,6 +179,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E0A4A0F51C6F535E00DD168A /* KbCalc */ = {
+			isa = PBXGroup;
+			children = (
+				E0A4A1051C6F828400DD168A /* KeyboardButtonsManager */,
+				E0A4A0F61C6F535E00DD168A /* KeyboardViewController.h */,
+				E0A4A0F71C6F535E00DD168A /* KeyboardViewController.m */,
+				E0A4A1031C6F766500DD168A /* KeyboardViewController.xib */,
+				E0A4A0F91C6F535E00DD168A /* Info.plist */,
+				26F4D715A756B07D46F625F9 /* Calculator */,
+			);
+			path = KbCalc;
+			sourceTree = "<group>";
+		};
+		E0A4A1051C6F828400DD168A /* KeyboardButtonsManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0A4A1061C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.h */,
+				E0A4A1071C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.m */,
+				E0A4A1091C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.h */,
+				E0A4A10A1C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.m */,
+				26F4DEBE2D766F3BBEB501EB /* KeyboardOperationMapper.m */,
+				26F4D04A01DF6AB1A328950D /* KeyboardOperationMapper.h */,
+				26F4D07601B107684BF035BD /* Model */,
+			);
+			path = KeyboardButtonsManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +216,37 @@
 				E0A4A0D21C6F520900DD168A /* Sources */,
 				E0A4A0D31C6F520900DD168A /* Frameworks */,
 				E0A4A0D41C6F520900DD168A /* Resources */,
+				E0A4A1001C6F535E00DD168A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E0A4A0FB1C6F535E00DD168A /* PBXTargetDependency */,
 			);
 			name = RPKeyboard;
 			productName = RPKeyboard;
 			productReference = E0A4A0D61C6F520900DD168A /* RPKeyboard.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E0A4A0F31C6F535E00DD168A /* KbCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A4A0FD1C6F535E00DD168A /* Build configuration list for PBXNativeTarget "KbCalc" */;
+			buildPhases = (
+				0CFC7F0A2970B4062762334D /* Check Pods Manifest.lock */,
+				E0A4A0F01C6F535E00DD168A /* Sources */,
+				E0A4A0F11C6F535E00DD168A /* Frameworks */,
+				E0A4A0F21C6F535E00DD168A /* Resources */,
+				749EEE9F8BEBC642A7F63345 /* Embed Pods Frameworks */,
+				4A23D4997D4BF6511F931112 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KbCalc;
+			productName = KbCalc;
+			productReference = E0A4A0F41C6F535E00DD168A /* KbCalc.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +258,9 @@
 				ORGANIZATIONNAME = rrpinc;
 				TargetAttributes = {
 					E0A4A0D51C6F520900DD168A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E0A4A0F31C6F535E00DD168A = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -127,6 +279,7 @@
 			projectRoot = "";
 			targets = (
 				E0A4A0D51C6F520900DD168A /* RPKeyboard */,
+				E0A4A0F31C6F535E00DD168A /* KbCalc */,
 			);
 		};
 /* End PBXProject section */
@@ -136,13 +289,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A4A0E91C6F520900DD168A /* LaunchScreen.storyboard in Resources */,
+				E0A4A1021C6F542A00DD168A /* ViewController.xib in Resources */,
 				E0A4A0E61C6F520900DD168A /* Assets.xcassets in Resources */,
-				E0A4A0E41C6F520900DD168A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A4A0F21C6F535E00DD168A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A4A1041C6F766500DD168A /* KeyboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFC7F0A2970B4062762334D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A23D4997D4BF6511F931112 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KbCalc/Pods-KbCalc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749EEE9F8BEBC642A7F63345 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KbCalc/Pods-KbCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0A4A0D21C6F520900DD168A /* Sources */ = {
@@ -155,26 +363,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0A4A0F01C6F535E00DD168A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A4A0F81C6F535E00DD168A /* KeyboardViewController.m in Sources */,
+				E0A4A10C1C6F9C6300DD168A /* KeyboardButtonCollectionViewCell.m in Sources */,
+				E0A4A1081C6F82A200DD168A /* KeyboardButtonsCollectionDelegate.m in Sources */,
+				26F4D4A97451BE4FE52C41C7 /* KeyboardOperationMapper.m in Sources */,
+				26F4D37846010CAC81EE6C29 /* KeyboardButtonModel.m in Sources */,
+				26F4D5223C975B175C5F27E0 /* KeyboardButtonsModel.m in Sources */,
+				26F4D2D42C23D3AD84684141 /* KeyboardOperationsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		E0A4A0E21C6F520900DD168A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0A4A0E31C6F520900DD168A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		E0A4A0FB1C6F535E00DD168A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A4A0F31C6F535E00DD168A /* KbCalc */;
+			targetProxy = E0A4A0FA1C6F535E00DD168A /* PBXContainerItemProxy */;
 		};
-		E0A4A0E71C6F520900DD168A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0A4A0E81C6F520900DD168A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E0A4A0EB1C6F520900DD168A /* Debug */ = {
@@ -279,6 +490,30 @@
 			};
 			name = Release;
 		};
+		E0A4A0FE1C6F535E00DD168A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC268782DBEC91BAFD5C900 /* Pods-KbCalc.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KbCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rrpinc.RPKeyboard.KbCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0A4A0FF1C6F535E00DD168A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD583104AAD3DE31A8ED820 /* Pods-KbCalc.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KbCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rrpinc.RPKeyboard.KbCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -298,6 +533,16 @@
 				E0A4A0EF1C6F520900DD168A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A4A0FD1C6F535E00DD168A /* Build configuration list for PBXNativeTarget "KbCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A4A0FE1C6F535E00DD168A /* Debug */,
+				E0A4A0FF1C6F535E00DD168A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
